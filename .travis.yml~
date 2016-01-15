@@ -1,0 +1,15 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+deploy:
+  provider: openshift
+  user: "leonardo.cordeiro@caelum.com.br"
+  password: "leo941231"
+  domain: "lema"
+  app: travisteste
+
+branches:
+  only:
+    - master
