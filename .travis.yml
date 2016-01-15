@@ -9,7 +9,3 @@ deploy:
   password: "leo941231"
   domain: "lema"
   app: testedeploy
-
-branches:
-  only:
-    - master
