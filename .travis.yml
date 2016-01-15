@@ -8,7 +8,7 @@ deploy:
   user: "leonardo.cordeiro@caelum.com.br"
   password: "leo941231"
   domain: "lema"
-  app: travisteste
+  app: testedeploy
 
 branches:
   only:
